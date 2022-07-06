@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/drawable/between_rounded_corners.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/drawable/bottom_rounded_corners.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/drawable/rounded_corners.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/drawable/rounded_corners2.xml" value="0.11481481481481481" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/drawable/rounded_corners3.xml" value="0.11481481481481481" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/drawable/top_bar_raunded_corners.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/layout-v28/card_layout.xml" value="0.1796875" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/layout/activity_login.xml" value="0.3491902834008097" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/layout/activity_main.xml" value="0.13999999999999999" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/layout/card_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/layout/item.xml" value="0.16061185468451242" />
+        <entry key="..\:/Users/PRATEEK/AndroidStudioProjects/socialX/app/src/main/res/menu/menu.xml" value="0.11348684210526316" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

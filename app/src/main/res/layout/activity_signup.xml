@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:background="@color/gray">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/top_bar_raunded_corners"
+        android:backgroundTint="@color/white">
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/red"
+            android:text="SocialX"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingLeft="30dp"
+            android:paddingTop="30dp"/>
+
+        <TextView
+            android:id="@+id/login"
+            android:background="@drawable/top_bar_raunded_corners"
+            style="@style/MyButton2"
+            android:text="LOGIN"
+            android:textColor="@color/gray"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/Signup"
+            app:layout_constraintTop_toBottomOf="@id/appname"/>
+
+        <TextView
+            android:id="@+id/Signup"
+            android:background="@drawable/top_bar_raunded_corners"
+            style="@style/MyButton"
+            android:text="SIGNUP"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/login"
+            app:layout_constraintTop_toBottomOf="@id/appname"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/top_constraint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/between_rounded_corners"
+        android:layout_marginBottom="90dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingStart="30dp"
+            android:text="Create an Account"
+            android:textColor="@color/red"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name"
+            android:text="Name"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView1"
+            style="@style/MyText"/>
+        <EditText
+            android:id="@+id/nameedit"
+            app:layout_constraintTop_toBottomOf="@id/name"
+            style="@style/MyEditText"
+            />
+        <TextView
+            android:id="@+id/email"
+            android:text="Email"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nameedit"
+            style="@style/MyText"/>
+        <EditText
+            android:id="@+id/emailedit"
+            app:layout_constraintTop_toBottomOf="@id/email"
+            style="@style/MyEditText" />
+        <TextView
+            android:id="@+id/contact"
+            android:text="contact no"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/emailedit"
+            style="@style/MyText"/>
+        <EditText
+            android:id="@+id/contactedit"
+            app:layout_constraintTop_toBottomOf="@id/contact"
+            style="@style/MyEditText"/>
+
+        <TextView
+            android:id="@+id/password"
+            android:text="Password"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contactedit"
+            style="@style/MyText"/>
+        <EditText
+            android:id="@+id/passwordedit"
+            app:layout_constraintTop_toBottomOf="@id/password"
+            style="@style/MyEditText"/>
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/passwordedit"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+        <TextView
+            android:id="@+id/conditiontxt"
+            android:text="I agree with"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/passwordedit"
+            app:layout_constraintLeft_toRightOf="@id/checkbox"
+            style="@style/MyText"
+            android:textStyle="normal"
+            android:layout_marginStart="5dp"/>
+        <TextView
+            android:id="@+id/conditiontxt1"
+            android:text="term &amp; condition"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/red"
+            style="@style/MyText"
+            app:layout_constraintTop_toBottomOf="@id/passwordedit"
+            app:layout_constraintLeft_toRightOf="@id/conditiontxt"/>
+        <TextView
+            android:id="@+id/signintxt"
+            android:text="Already have an account ?"
+            android:textColor="@color/gray"
+            android:textSize="15sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            style="@style/MyText"
+            app:layout_constraintTop_toBottomOf="@id/conditiontxt"
+            app:layout_constraintLeft_toRightOf="@id/checkbox"/>
+        <TextView
+            android:id="@+id/signin"
+            android:text="Sign in!"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            style="@style/MyText"
+            app:layout_constraintTop_toBottomOf="@id/conditiontxt"
+            app:layout_constraintLeft_toRightOf="@id/signintxt"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/SignupButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/bottom_rounded_corners"
+        android:text="Register"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
